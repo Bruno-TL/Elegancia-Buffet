@@ -1,0 +1,27 @@
+
+
+@media screen and (max-width: 400px) {
+    .header{
+        height: 80px;
+        background-color: black;
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .imgHeader {
+        padding-left: 15px;
+        width: 20%;
+    }
+
+    .nav__header{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center; 
+
+        width: 50%;
+
+        color: #f2d549;
+        font-family: 'Montserrat';
+    }
+}
