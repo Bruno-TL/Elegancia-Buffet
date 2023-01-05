@@ -1,0 +1,70 @@
+@media screen and (max-width: 420px) {
+    #nav__menu {
+        width: 40%;
+
+    }
+
+    .button__nav {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        box-sizing: border-box;
+        background-color: black;
+        border: 2px solid #ffdf00;
+
+    }
+
+    .row__nav {
+        color: #ffdf00;
+        height: 40px;
+        width: 25px;
+        box-sizing: border-box;
+
+    }
+
+    .nav_links__menu {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        background-color: black;
+
+    }
+
+    .links__menu {
+        /* border: 1px solid red; */
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: larger;
+        margin-top: 10px;
+        padding-bottom: 40px;
+        border-bottom: 1px solid #f2d649;
+
+        height: 30px;
+        
+        width: 99%;
+
+        text-decoration: none;
+        color: #f2d649;
+        text-shadow:
+            0 0 7px #fff,
+            /* 0 0 10px #fff, */
+            /* 0 0 21px #fff, */
+            /* 0 0 42px #f2d649 */
+            0 0 82px #f2d649;
+            /* 0 0 92px #f2d649; */
+            /* 0 0 102px #f2d649; */
+            /* 0 0 151px #f2d649; */
+
+            animation: pulsate 1.5s infinite alternate;
+    }
+
+    .links__menu:active {
+        color: #f2d649;
+    }
+
+    .links__menu:visited {
+        color: #f2d649;
+    }
+
+
+}
