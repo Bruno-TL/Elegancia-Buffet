@@ -12,21 +12,21 @@ export default function Home() {
             <div className='section__home__container'>
                 <div className='section__home__container__caixa'>
                     <img className='img__eventos' src={casamento}/>
-                    <Link className='link__eventos'>Casamentos</Link>
+                    <Link className='link__eventos' to='/casamento'>Casamentos</Link>
                 </div>
 
                 <div className='section__home__container__caixa'>
-                    <Link className='link__eventos'>Infantil</Link>
+                    <Link className='link__eventos' to='/infantil'>Infantil</Link>
                     <img className='img__eventos' src={infantil}/>
                 </div>
 
                 <div className='section__home__container__caixa'>
                     <img className='img__eventos' src={debutante}/>
-                    <Link className='link__eventos'>Debutantes</Link>
+                    <Link className='link__eventos' to='/debutante'>Debutantes</Link>
                 </div>
 
                 <div className='section__home__container__caixa'>
-                    <Link className='link__eventos'>Outros</Link>
+                    <Link className='link__eventos' to='/outros'>Outros</Link>
                     <img className='img__eventos' src={outros}/>
                 </div>
             </div>

@@ -11,11 +11,7 @@ export default function Headers() {
         <section className='section__Header'>
             
             <header className='header'>
-                <Example />
-                <nav className='headers__nav__links'>
-                    <Link className='links' to='/'>Início</Link>
-                    <Link className='links' to='/contato'>Contato</Link>
-                </nav>
+                <Example className='header__example'/>
                 <img src={logo} className="imgHeader" />
             </header>
             <main className='section__main'>

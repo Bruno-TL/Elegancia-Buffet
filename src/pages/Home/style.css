@@ -1,15 +1,14 @@
 @media screen and (max-width: 420px) {
     .section__home {
-        height: 660px;
-        border-radius: 70px 70px 0 0;
-        margin-top: -65px;
+        height: 700px;
+        border-radius: 70px;
         background-color: #ffd500;
         padding-top: 15px;
     }
 
     .section__home__titulo {
         font-family: 'Cinzel Decorative', cursive;
-        font-size: 26px;
+        font-size: 20px;
         font-weight: bolder;
         width: 100%;
         text-align: center;
@@ -25,7 +24,7 @@
     .section__home__container__caixa {
         width: 90%;
         height: 120px;
-        margin-top: 15px;
+        margin-top: 25px;
         display: flex;
         align-items: center;
 
@@ -37,8 +36,9 @@
         width: 60%;
         height: 100%;
         box-sizing: border-box;
-        border-radius: 5px;
+        border-radius: 10px;
         box-shadow: 0 4px 10px 0 rgba(0, 17, 246, 0.37);
+        
     }
 
     .link__eventos {
@@ -60,7 +60,7 @@
         backdrop-filter: blur(13.5px);
         -webkit-backdrop-filter: blur(13.5px);
         border-radius: 10px;
-        border: 1px solid rgba(255, 255, 255, 0.18);
+        border: 5px ridge rgba(255, 255, 255, 0.18);
     }
 
     .link__eventos:visited {

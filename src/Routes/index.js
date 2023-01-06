@@ -14,12 +14,13 @@ export default function Routers() {
             <Headers/>
                 <Routes>
                     <Route path="/" element={<Home/>}/>
-                    <Route path="/contato" element={<Contato/>}/>
+                    {/* <Route path="/contato" element={}/> */}
                     <Route path="/infantil" element={<Infantil/>}/>
                     <Route path="/casamento" element={<Casamento/>}/>
                     <Route path="/debutante" element={<Debutante/>}/>
                     <Route path="/outros" element={<Outros/>}/>
                 </Routes>
+            <Contato/>
         </BrowserRouter>
     );
 }

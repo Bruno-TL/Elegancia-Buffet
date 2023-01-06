@@ -1,16 +1,14 @@
 @media screen and (max-width: 420px) {
     .section__Header {
         background-color: black;
-        height: 30vh;
-        /* border: 1px solid red; */
+        height: 22vh;
     }
     
     .header {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
-        padding-top: 10px;
-        
+        padding-top: 10px;  
     }
     
     .headers__nav__links {
@@ -26,17 +24,24 @@
         font-family: 'Montserrat', sans-serif;
     }
     
+    .links:active {
+        color: #f2d649;
+    }
+
+    .links:visited {
+        color: #f2d649;
+    }
     
     .imgHeader {
         width: 80px;
         height: 80px;
         border-radius: 50%;
+        margin-right: 25px;
     }
 
     .section__main {
-        margin-top: 20px;
         text-align: left;
-        padding-left: 80px;
+        padding-left: 90px;
     }
 
     .section__main__titulo {
@@ -49,5 +54,4 @@
         padding-left: 130px;
         margin-top: -10px;
     }
-
 }
