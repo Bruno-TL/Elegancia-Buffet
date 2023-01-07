@@ -6,6 +6,7 @@ import Infantil from "../pages/Infantil";
 import Casamento from "../pages/Casamento";
 import Debutante from "../pages/Debutante";
 import Outros from "../pages/Outros";
+import Footer from "../pages/Footer";
 
 
 export default function Routers() {
@@ -14,13 +15,13 @@ export default function Routers() {
             <Headers/>
                 <Routes>
                     <Route path="/" element={<Home/>}/>
-                    {/* <Route path="/contato" element={}/> */}
+                    <Route path="/contato" element={<Contato/>}/>
                     <Route path="/infantil" element={<Infantil/>}/>
                     <Route path="/casamento" element={<Casamento/>}/>
                     <Route path="/debutante" element={<Debutante/>}/>
                     <Route path="/outros" element={<Outros/>}/>
                 </Routes>
-            <Contato/>
+            <Footer/>
         </BrowserRouter>
     );
 }
