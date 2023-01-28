@@ -30,6 +30,9 @@ export default function Home() {
                     <img className='img__eventos' src={outros}/>
                 </div>
             </div>
+            <div className='tamanhoDesktop'>
+                Versão do site somente para celulares.
+            </div>
         </section>
     )
 }

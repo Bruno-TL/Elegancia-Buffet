@@ -72,4 +72,8 @@
     }
 
     /* fim css container casamento */
+
+    .tamanhoDesktop{
+        display: none;
+    }
 }

@@ -9,7 +9,7 @@ export default function Footer() {
             <h2 className='footer__titulo'>CONTATO</h2>
             <p className='footer__parag'>85 99934 - 4210 <FaAngleDoubleRight/>  Meire <FaViber/></p>
             <div className='footer__container'>
-                <a className='footer__a'>Falar por WhatsApp <FaWhatsapp/></a>
+                <a href='https://api.whatsapp.com/send?phone=558599344210&text=Ol%C3%A1,%20Obrigado%20por%20entrar%20em%20contanto%20com%20a%20gente%20do%20Eleg%C3%A2ncia%20Buffet,%20em%20instantes%20a%20nossa%20Gerente%20de%20Eventos%20ir%C3%A1%20falar%20com%20voc%C3%AA' className='footer__a'>Falar por WhatsApp <FaWhatsapp/></a>
                 <a href='https://www.instagram.com/buffetelegancia/' className='footer__a__img'>
                     <img src={instagram} className='footer__img'/>
                 </a>
