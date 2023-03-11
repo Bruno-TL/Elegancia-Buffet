@@ -1,6 +1,7 @@
 @media screen and (max-width: 420px) {
     .section__home {
-        height: 700px;
+        margin-top: 10px;
+        height: 820px;
         border-radius: 70px;
         background-color: #ffd500;
         padding-top: 15px;
@@ -23,9 +24,10 @@
 
     .section__home__container__caixa {
         width: 90%;
-        height: 120px;
+        height: 150px;
         margin-top: 25px;
         display: flex;
+        flex-direction: column;
         align-items: center;
 
     }
@@ -33,7 +35,7 @@
     /* css container casamento */
 
     .img__eventos {
-        width: 60%;
+        width: 90%;
         height: 100%;
         box-sizing: border-box;
         border-radius: 10px;
@@ -45,26 +47,25 @@
         text-decoration: none;
         width: 38%;
         height: 60%;
-        margin: 0 13px;
+        margin-top: -50px;
 
         display: flex;
         align-items: center;
         justify-content: center;
 
         font-family: 'Montserrat', sans-serif;
-        color: black;
+        color: rgb(0, 0, 0);
+        text-transform: uppercase;
         font-weight: bolder;
-
-        background: rgba(255, 255, 255, 0.35);
-        box-shadow: 0 8px 10px 0 rgba(31, 38, 135, 0.37);
-        backdrop-filter: blur(13.5px);
+        
+        backdrop-filter: blur(4px);
         -webkit-backdrop-filter: blur(13.5px);
         border-radius: 10px;
-        border: 5px ridge rgba(255, 255, 255, 0.18);
+        border: 2px ridge rgba(255, 255, 255, 0.09);
     }
 
     .link__eventos:visited {
-        color: black;
+        color: rgb(246, 246, 64);
     }
 
     .link__eventos:active {

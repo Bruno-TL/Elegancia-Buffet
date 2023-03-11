@@ -16,8 +16,8 @@ export default function Home() {
                 </div>
 
                 <div className='section__home__container__caixa'>
-                    <Link className='link__eventos' to='/infantil'>Infantil</Link>
                     <img className='img__eventos' src={infantil}/>
+                    <Link className='link__eventos' to='/infantil'>Infantil</Link>
                 </div>
 
                 <div className='section__home__container__caixa'>
@@ -26,8 +26,8 @@ export default function Home() {
                 </div>
 
                 <div className='section__home__container__caixa'>
-                    <Link className='link__eventos' to='/outros'>Outros</Link>
                     <img className='img__eventos' src={outros}/>
+                    <Link className='link__eventos' to='/outros'>Outros</Link>
                 </div>
             </div>
             <div className='tamanhoDesktop'>

@@ -44,7 +44,7 @@
 
         border-radius: 10px;
         border: 5px ridge #f2d6497d;
-        background: #ffd500cf;
+        background: #ffd500;
         box-shadow: 0 8px 10px 0 rgba(31, 38, 135, 0.37);
         backdrop-filter: blur(13.5px);
         -webkit-backdrop-filter: blur(13.5px);
@@ -97,3 +97,4 @@
 }
 
     /* */
+    
