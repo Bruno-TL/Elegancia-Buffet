@@ -78,3 +78,123 @@
         display: none;
     }
 }
+
+@media screen and (min-width:720px) {
+    .section__home {
+        margin-top: 10px;
+        
+        background-color: antiquewhite;
+        padding-top: 15px;
+    }
+
+    .section__home__titulo {
+        font-family: 'Cinzel Decorative', cursive;
+        font-size: 50px;
+        font-weight: bolder;
+        width: 100%;
+        text-align: left;
+        margin: 20px 15px;
+    }
+
+    .section__home__container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 0 10px;
+        gap: 10px;
+        /* flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+    }
+
+    .section__home__container__caixa {
+        width: 100%;
+        /* height: 150px; */
+        /* margin-top: 25px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        position: relative;
+        
+        
+
+    }
+
+    .section__home__container__caixa:hover{
+        padding: 10px;
+        border-radius: 20px;
+        animation-name: back;
+        animation-duration: 1s;
+        background-color: #ffd500;
+    }
+
+    @keyframes back{
+        to{
+            background-color: #ffd500;
+        }
+        from{
+            background-color: #fff;
+        }
+        
+    }
+
+    /* css container casamento */
+
+    .img__eventos {
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        border-radius: 20px;
+    }
+
+    .link__eventos {
+        text-decoration: none;
+        width: 40%;
+        /* height: 60%;
+        margin-top: -80px; */
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(246, 246, 64);
+        text-transform: uppercase;
+        font-weight: bolder;
+        font-size: 25px;
+        padding: 20px;
+        position: absolute;
+        top: 40%;
+        /* left: 50%; */
+        
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(13.5px);
+        border-radius: 10px;
+        border: 2px ridge rgba(235, 226, 226, 0.09);
+        transition: width 2s;
+    }
+
+    .link__eventos:visited {
+        color: rgb(246, 246, 64);
+    }
+
+    .link__eventos:active {
+        color: rgb(246, 246, 64);
+    }
+    
+    .link__eventos:hover{
+        width: 60%;
+        animation-name: example;
+        animation-duration: 2s;
+    }
+
+    @keyframes example {
+        from {
+            backdrop-filter: blur(5px);
+            color: #ffd500;
+        }
+        to {
+            background-color: yellow;
+            color: black;
+        }
+    }
+}
